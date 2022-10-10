@@ -1,5 +1,11 @@
-import { CustomMap } from "./useCases/CustomMap";
+import { CustomMap } from "./useCases/CustomMap"
+import { User } from "./useCases/User"
+import { Company } from "./useCases/Company"
 
 const customMap = new CustomMap('map')
+const user = new User
+const company = new Company
 
-console.log(customMap)
+customMap.addMarker(user)
+customMap.addMarker(company)
+
