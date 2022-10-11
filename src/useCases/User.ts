@@ -16,6 +16,6 @@ export class User {
   }
 
   markerContent() {
-    return `<h6>User name: ${this.name}`
+    return `<h3>Name: ${this.name}</h3>`
   }
 }
